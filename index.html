@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CropSpectra – AgriVision CRO Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; line-height: 1.5; }
+        header, nav, main, footer { padding: 1rem 1.5rem; }
+        header { border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; }
+        nav a { margin-left: 1rem; text-decoration: none; color: #005c5c; }
+        .hero { padding: 3rem 1.5rem; background: #f5f9f7; }
+        .hero h1 { margin-top: 0; }
+        .btn-primary, .btn-secondary {
+            display: inline-block; padding: 0.6rem 1.2rem; margin-right: 0.5rem;
+            border-radius: 4px; text-decoration: none; font-size: 0.95rem;
+        }
+        .btn-primary { background: #006d6d; color: #fff; }
+        .btn-secondary { border: 1px solid #006d6d; color: #006d6d; background: #fff; }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+        .card { border: 1px solid #e0e0e0; border-radius: 6px; padding: 1rem; background: #fff; }
+        footer { border-top: 1px solid #ddd; font-size: 0.85rem; color: #666; }
+    </style>
+</head>
+<body>
+<header>
+    <div><strong>CropSpectra</strong></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cro-services.html">CRO Services</a>
+        <a href="software.html">Software & Data</a>
+        <a href="soilsync.html">SoilSync</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <h1>AgriVision CRO Services for Biostimulants, Biopesticides, and Disease Management Trials</h1>
+        <p>Contract research, regulatory support, and data infrastructure for biologicals, seed, and gene-editing programs.</p>
+        <a class="btn-primary" href="cro-services.html">Explore CRO Services</a>
+        <a class="btn-secondary" href="contact.html">Schedule a Call</a>
+    </section>
+
+    <section>
+        <h2>What We Do</h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>Bioefficacy Trials</h3>
+                <p>Greenhouse, chamber, and field trials for biostimulants, biopesticides, and disease management programs.</p>
+            </div>
+            <div class="card">
+                <h3>Regulatory & Permitting</h3>
+                <p>Support for registration data packages, USDA APHIS permitting, and stewardship documentation.</p>
+            </div>
+            <div class="card">
+                <h3>Genetics & Stewardship</h3>
+                <p>Trait and gene-edit trials, stewardship plans, and material tracking for regulated programs.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> CropSpectra – AgriVision CRO Services &amp; SoilSync.</p>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
