@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Software & Data – AgriVision Analytics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; line-height: 1.5; }
+        header, nav, main, footer { padding: 1rem 1.5rem; }
+        header { border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; }
+        nav a { margin-left: 1rem; text-decoration: none; color: #005c5c; }
+        main { max-width: 1000px; margin: 0 auto; padding-top: 1.5rem; padding-bottom: 2rem; }
+        h1, h2 { color: #123; }
+        h2 { margin-top: 2rem; }
+        .tagline { color: #444; max-width: 800px; }
+        .hero-actions a {
+            display: inline-block;
+            padding: 0.6rem 1.2rem;
+            margin-right: 0.5rem;
+            margin-top: 0.75rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+        .btn-primary { background: #006d6d; color: #fff; }
+        .btn-secondary { border: 1px solid #006d6d; color: #006d6d; background: #fff; }
+        .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-top: 1rem; }
+        .card { border: 1px solid #e0e0e0; border-radius: 6px; padding: 1rem; background: #fff; }
+        ul { padding-left: 1.2rem; }
+        footer { border-top: 1px solid #ddd; font-size: 0.85rem; color: #666; }
+    </style>
+</head>
+<body>
+<header>
+    <div><strong>CropSpectra</strong></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cro-services.html">CRO Services</a>
+        <a href="software.html">Software & Data</a>
+        <a href="soilsync.html">SoilSync</a>
+        <a href="https://calendar.app.google/cRsikbnps7ddpXWP7"
+           target="_blank"
+           rel="noopener noreferrer">
+            Schedule a Call
+        </a>
+    </nav>
+</header>
+
+<main>
+    <h1>AgriVision Analytics Software & Data</h1>
+    <p class="tagline">
+        AgriVision Analytics connects greenhouse, CEA, and field trials in a single software and data platform—built for biologicals, biofertility, crop protection, and agronomy teams running high‑impact trials.
+    </p>
+
+    <div class="hero-actions">
+        <a class="btn-primary"
+           href="https://calendar.app.google/cRsikbnps7ddpXWP7"
+           target="_blank"
+           rel="noopener noreferrer">
+            Schedule a Software Demo
+        </a>
+        <a class="btn-secondary"
+           href="#"
+           onclick="alert('Client portal access is coming soon. Contact us to discuss early access.'); return false;">
+            Client Portal (coming soon)
+        </a>
+    </div>
+
+    <h2>Computer Vision Apps (MVP Demos)</h2>
+    <div class="grid-2">
+        <div class="card">
+            <h3>Flower Color &amp; Canopy Analyzer (Demo)</h3>
+            <p>
+                Quantifies flower and canopy color, uniformity, and early stress signals from images in growth chambers, greenhouses, and small field plots.
+            </p>
+            <ul>
+                <li>Supports biologicals, biofertility, and crop protection screening trials.</li>
+                <li>Generates objective indices that complement visual ratings.</li>
+                <li>Designed for rapid prototyping and custom models by crop or trait.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Root Architecture Analyzer (Demo)</h3>
+            <p>
+                Extracts root length, branching, and architecture metrics from root images to support biofertility, seed treatment, and genetics programs.
+            </p>
+            <ul>
+                <li>Links root traits to treatments, genotypes, and soil conditions.</li>
+                <li>Supports greenhouse, growth pouch, and rhizotron experiments.</li>
+                <li>Built to integrate with downstream statistics and modeling.</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>AgriVision LIMS &amp; Data Platform (Early Access)</h2>
+    <p>
+        The AgriVision LIMS and data platform is being developed as an agriculture‑specific system to keep lab, growth chamber, greenhouse, and field data in one place.
+    </p>
+    <ul>
+        <li>Tracks samples, plots, and treatments across locations and seasons.</li>
+        <li>Links images, ratings, sensor data, and metadata for each trial.</li>
+        <li>Maintains audit trails to support regulatory, stewardship, and sponsor needs.</li>
+        <li>Exports clean CSV/Excel datasets and trial summaries for analysis and reporting.</li>
+    </ul>
+    <p>
+        Early access is available for select partners and design customers. Use the demo link above to discuss fit and timelines.
+    </p>
+
+    <h2>Dashboards &amp; Insights</h2>
+    <p>
+        AgriVision Analytics is being built to turn trial data into decision tools for product development and research programs.
+    </p>
+    <ul>
+        <li>Response curves and treatment vs. control views across environments.</li>
+        <li>Time‑series disease and bioefficacy summaries from image and rating data.</li>
+        <li>Program‑level dashboards for products, traits, or biologicals across years and sites.</li>
+    </ul>
+
+    <h2>AI in Ag &amp; Insights (Coming Soon)</h2>
+    <p>
+        A short “AI in Ag” insights section will share practical examples of computer vision phenotyping, disease analytics, and integrated trial workflows for biologicals and crop protection.
+    </p>
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> CropSpectra – AgriVision CRO Services &amp; SoilSync.</p>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
