@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog &amp; Insights – CropSpectra / AgriVision</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; line-height: 1.5; }
+        header, nav, main, footer { padding: 1rem 1.5rem; }
+        header { border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; }
+        nav a { margin-left: 1rem; text-decoration: none; color: #005c5c; }
+        main { max-width: 1000px; margin: 0 auto; padding-top: 1.5rem; padding-bottom: 2rem; }
+        h1, h2, h3 { color: #123; }
+        h2 { margin-top: 2rem; }
+        .tagline { color: #444; max-width: 800px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-top: 1rem; }
+        .card { border: 1px solid #e0e0e0; border-radius: 6px; padding: 1rem; background: #fff; }
+        .badge { display: inline-block; font-size: 0.8rem; padding: 0.1rem 0.4rem; border-radius: 3px; background: #f5f9f7; color: #005c5c; margin-bottom: 0.5rem; }
+        footer { border-top: 1px solid #ddd; font-size: 0.85rem; color: #666; }
+    </style>
+</head>
+<body>
+<header>
+    <div><strong>CropSpectra</strong></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cro-services.html">CRO Services</a>
+        <a href="software.html">Software &amp; Data</a>
+        <a href="soilsync.html">SoilSync</a>
+        <a href="blog.html">Blog &amp; Insights</a>
+        <a href="https://calendar.app.google/cRsikbnps7ddpXWP7"
+           target="_blank"
+           rel="noopener noreferrer">
+            Schedule a Call
+        </a>
+    </nav>
+</header>
+
+<main>
+    <h1>Blog &amp; Insights</h1>
+    <p class="tagline">
+        Short, practical notes on computer vision, trial design, and data workflows for biologicals, biofertility, crop protection, and agronomy teams.
+    </p>
+
+    <h2>Latest articles</h2>
+    <div class="grid-3">
+        <div class="card">
+            <span class="badge">New</span>
+            <h3>Using Computer Vision to Strengthen Greenhouse and Growth Chamber Trials</h3>
+            <p>
+                How image-based phenotyping can add speed, objectivity, and new traits to growth cabinet and greenhouse programs,
+                from early stress detection to dose–response curves. (Full article coming soon.)
+            </p>
+            <p style="font-size:0.9rem; color:#666;">
+                Status: Drafting. If you are interested in piloting flower or root analyzers in your trials, use the “Schedule a Call” link in the header.
+            </p>
+        </div>
+
+        <div class="card">
+            <span class="badge">Coming soon</span>
+            <h3>What an Ag-Specific LIMS Needs to Track for Biologicals and Biofertility</h3>
+            <p>
+                A practical checklist for LIMS fields and workflows tailored to greenhouse, microbiome, and field trials for biological products.
+            </p>
+            <p style="font-size:0.9rem; color:#666;">
+                Status: Outline stage. Planned for early 2026.
+            </p>
+        </div>
+
+        <div class="card">
+            <span class="badge">Coming soon</span>
+            <h3>Linking Lab, Greenhouse, and Field Data in One Workflow</h3>
+            <p>
+                Ideas for connecting data streams across lab assays, chamber experiments, greenhouse benches, and field plots in a unified analytics layer.
+            </p>
+            <p style="font-size:0.9rem; color:#666;">
+                Status: Planning case examples. Get in touch if you would like your program considered as an anonymized example.
+            </p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> CropSpectra – AgriVision CRO Services &amp; SoilSync.</p>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
